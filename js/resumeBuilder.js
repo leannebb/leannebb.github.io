@@ -79,13 +79,13 @@ var projects ={
 		{
 			"title" :"Website develop and maintain",
 			"dates" : "December 2012 -- January 2014",
-			"description" : "Designed website for Chinese Students and Scholars Association "
+			"description" : "Designed website for Chinese Students and Scholars Association."
 		},
 
 		{
 			"title" :"Real-time Text Visualization Analysis System ",
 			"dates" : "May 2013 -- August 2014",
-			"description" : "Designed website for Chinese Students and Scholars Association "
+			"description" : "Developed effective visualization tool for streaming text data with D3.jsBenefit for identifying real-time topic trends in news, blogs, comments, search engines and social media records."
 		},
 
 		{
