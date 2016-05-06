@@ -6,14 +6,19 @@ This is empty on purpose! Your code to build the resume will go here.
  var role = "Web Developer";
  var formattedRole = HTMLheaderRole.replace("%data%", role);
 
+
  $("#header").prepend(formattedRole);
  $("#header").prepend(formattedName);
+ 
+ $("#header").append(HTMLbioPic);
+
 
 $("#topContacts").append(HTMLmobile);
 $("#topContacts").append(HTMLemail);
 $("#topContacts").append(HTMLgithub);
 $("#topContacts").append(HTMLlocation);
- 
+
+
 var bio ={
 	"name" : "Lijia Li",
 	"role" : "Web Developer",
@@ -21,11 +26,11 @@ var bio ={
 		"mobile" : "330-389-6124",
 		"email" : "jleannejia@gmail.com",
 		"github" : "leannebb",
-		"location" : "Tacoma"
+		"location" : "Tacoma, WA"
 	},
 
 	"welcomeMessage" : "Hello My friends",
-	"skills" : ["Java","HTML","JS","JQuery","CSS","D3.js","ASP.net"],
+	"skills" : ["Programming","Front to End web developing ","Data Analysis and Visualizing","Keen attention to detail","Strong work ethics","Professional demeanor"],
 	"bioPic" : "img/null"
 }
 

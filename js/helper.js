@@ -10,12 +10,12 @@ Cameron Pittman
 
 /*
 These are HTML strings. As part of the course, you'll be using JavaScript functions
-replace the %data% placeholder text you see in them.
-*/
+replace the %data% placeholder text you see in them./*<span class="white-text">%data%</span>*/
+
 var HTMLheaderName = '<h1 id="name">%data%</h1>';
 var HTMLheaderRole = '<span>%data%</span><hr>';
 
-var HTMLcontactGeneric = '<li class="flex-item"><span class="orange-text">%contact%</span><span class="white-text">%data%</span></li>';
+var HTMLcontactGeneric = '<li class="flex-item"><span class="orange-text">contacts:</span></li>';
 var HTMLmobile = '<li class="flex-item"><span class="orange-text">mobile</span><span class="white-text">330-389-6124</span></li>';
 var HTMLemail = '<li class="flex-item"><span class="orange-text">email</span><span class="white-text">jleannejia@gmail.com</span></li>';
 var HTMLtwitter = '<li class="flex-item"><span class="orange-text">twitter</span><span class="white-text">leannebb</span></li>';
@@ -23,8 +23,8 @@ var HTMLgithub = '<li class="flex-item"><span class="orange-text">github</span><
 var HTMLblog = '<li class="flex-item"><span class="orange-text">blog</span><span class="white-text">leannebb</span></li>';
 var HTMLlocation = '<li class="flex-item"><span class="orange-text">location</span><span class="white-text">Tacoma</span></li>';
 
-var HTMLbioPic = '<img src="%data%" class="biopic">';
-var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
+var HTMLbioPic = '<img src="images/qq1.png" class="biopic">';
+var HTMLwelcomeMsg = '<span class="welcome-message">Hello My friends!</span>';
 
 var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills" class="flex-box"></ul>';
 var HTMLskills = '<li class="flex-item"><span class="white-text">%data%</span></li>';
